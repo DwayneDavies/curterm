@@ -1,0 +1,15 @@
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\CurTerm.exe
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\CurTerm.deps.json
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\CurTerm.runtimeconfig.json
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\CurTerm.runtimeconfig.dev.json
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\CurTerm.dll
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\CurTerm.pdb
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\obj\Release\netcoreapp3.1\CurTerm.csprojAssemblyReference.cache
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\obj\Release\netcoreapp3.1\CurTerm.AssemblyInfoInputs.cache
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\obj\Release\netcoreapp3.1\CurTerm.AssemblyInfo.cs
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\obj\Release\netcoreapp3.1\CurTerm.csproj.CoreCompileInputs.cache
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\obj\Release\netcoreapp3.1\CurTerm.csproj.CopyComplete
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\obj\Release\netcoreapp3.1\CurTerm.dll
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\obj\Release\netcoreapp3.1\CurTerm.pdb
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\obj\Release\netcoreapp3.1\CurTerm.genruntimeconfig.cache

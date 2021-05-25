@@ -1,0 +1,13 @@
+Does currency conversion from free.currencyconverterapi.com.
+
+Commands:
+
+/amount		The amount to do the conversion on. If not provided, defaults to 1.
+	
+/from		Do currency conversions from this currency to [-to] currency. If not provided, defaults to United States Dollars.
+
+/help		Show this help file.
+
+/list		List all available currencies.
+
+/to		Do currency conversions from [-from] currenty to this currency. If not provided, defaults to New Zealand Dollars.

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fTzyY2DsX9FKJqwTWAj0nQ8Ql2uWWcQkZMlVsmm6lrk2q9TkrHOOEz/PajBINLN3hhYNeoh6lUHPP4/Z5ZU/jA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dwayn\\source\\repos\\CurTerm\\CurTerm\\CurTerm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dwayn\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
