@@ -11,13 +11,13 @@ namespace CurTerm
 
     class ParameterEngine
     {
-        protected string[] argList;
+        private string[] argList;
         string[] infoArgs;
-        protected Dictionary<string, MethodInfo> supportedArgs;
-        protected Dictionary<string, string> options;
+        private Dictionary<string, MethodInfo> supportedArgs;
+        private Dictionary<string, string> options;
         // Used by main to check if it should not do other stuff.
         public bool PrematureTerm = false;
-        protected static Currencies currencies;
+        private static Currencies currencies;
 
         public ParameterEngine(string[] argList, string [] args, char divider, Dictionary<string, string> options, string[] infoArgs = null)
         {
@@ -63,7 +63,7 @@ namespace CurTerm
             return new ParameterEngine(argList, args, divider, options, infoArgs);
         }
 
-        protected void help(string argument)
+        private void help(string argument)
         {
             string[] split = argument.Split(" ");
        
@@ -77,7 +77,7 @@ namespace CurTerm
 
         }
 
-        protected void addOption(string potentialOption)
+        private void addOption(string potentialOption)
         {
             string toSplit = potentialOption;
 
@@ -93,12 +93,12 @@ namespace CurTerm
 
         }
 
-        protected bool argsContains(string[] args, string toFind)
+        private bool argsContains(string[] args, string toFind)
         {
             return (Array.FindIndex(args, x => x == toFind) > -1);
         }
 
-        protected void getHelpArgument(string argument)
+        private void getHelpArgument(string argument)
         {
             string jsonString = System.IO.File.ReadAllText("helpArguments.json");
             Dictionary<string, string> helpArguments = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonString);
@@ -110,7 +110,7 @@ namespace CurTerm
 
         }
 
-        protected bool isInfoOnly(string[] args)
+        private bool isInfoOnly(string[] args)
         {
 
             if (infoArgs == null)
@@ -130,7 +130,7 @@ namespace CurTerm
             get { return options[key]; }
         }
 
-        protected bool amount(string a)
+        private bool amount(string a)
         {
             bool isValid = float.TryParse(a, out _);
 
@@ -140,7 +140,7 @@ namespace CurTerm
             return isValid;
         }
 
-        protected bool from(string currency)
+        private bool from(string currency)
         {
             bool isValid = currencies.isCurrency(currency.ToUpper());
 
@@ -150,14 +150,14 @@ namespace CurTerm
             return isValid;
         }
 
-        protected bool list(string sourceFile = "")
+        private bool list(string sourceFile = "")
         {
             currencies.ListCurrencies();
 
             return true;
         }
 
-        protected bool to(string currency)
+        private bool to(string currency)
         {
             bool isValid = currencies.isCurrency(currency.ToUpper());
 

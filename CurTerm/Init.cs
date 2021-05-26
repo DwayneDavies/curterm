@@ -26,7 +26,7 @@ namespace CurTerm
         {
             WebClient client = new WebClient();
 
-            client.DownloadFile("https://raw.githubusercontent.com/DwayneDavies/CurTerm/blob/master/CurTerm/bin/Release/netcoreapp3.1/publish/" + fileName, fileName);
+            client.DownloadFile("https://raw.githubusercontent.com/DwayneDavies/CurTerm/blob/master/files/" + fileName, fileName);
         }
 
     }

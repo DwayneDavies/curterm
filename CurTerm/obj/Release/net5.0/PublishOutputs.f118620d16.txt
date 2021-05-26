@@ -1,0 +1,6 @@
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\publish\CurTerm.exe
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\publish\CurTerm.dll
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\publish\CurTerm.deps.json
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\publish\CurTerm.runtimeconfig.json
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\publish\CurTerm.pdb
+C:\Users\dwayn\source\repos\CurTerm\CurTerm\bin\Release\netcoreapp3.1\publish\Newtonsoft.Json.dll
